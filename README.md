@@ -32,8 +32,8 @@ PHP Storm was used to work on the theme, given its popularity, unfriendly ui, sy
     `CONTAINER ID   IMAGE              COMMAND                  CREATED        STATUS`
 * Run `mkdir wordpress-local && cd wordpress-local` and  `touch docker-compose.yml` one after the other
 * this will create a directory called wordpress-local on your computer, then add a new file called docker-compose.yml inside that directory
-* Find the newly created folder and open the "docker-compose.yml" file
-* Copy the code from below in to the file and save it
+* Find the newly "wordpress-local" folder and open the "docker-compose.yml" file
+* Copy the "Docker Compose File" code from below in to the file and save it
 * Run `docker-compose up -d` on git bash and wait for the set-up to complete
 * Once the setup has been completed got to http://localhost:8000/ on your browser to start WordPress
 
@@ -73,6 +73,15 @@ volumes:
 ```
 
 ## Version Control - Git Hub
+#### Step 2 Set up version control for local environment
+* Inside the "local-wordpress" folder docker compose will have created a "themes" folder
+* Run `cd <path-to-themes-folder>`
+* Run `git clone https://github.com/heshan8/CP3402-2023-Supp-Project.git`
+* Run `cd <path-to-the-cloned-theme-folder-inside-themes>`
+* Run `git branch -a` to list all branches
+* Run `git checkout <brnach-name>` to switch to main branch
+* Run `git log` to see the latest changes
+* Run `git pull` to get the latest updates from the main branch
 
 
 
