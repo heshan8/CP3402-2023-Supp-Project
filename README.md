@@ -1,5 +1,6 @@
-# Development and Deployment Workflow
+# Development and Deployment Workflow 
 
+# Deployment
 ## Tools Used
 * Project management - `Trello`
 * CMS - `WordPress`
@@ -12,17 +13,16 @@
 
 Trello is an online list making tool/board used for organizing and tracking projects.
 
-Sign up to trello using your email then use the link below to join the existing board created. Use the completed tasks  
-on the board as a starting point for future development.
+Sign up to trello using your email then use the link below to join the existing board created.
 
 Link to existing board: https://trello.com/invite/b/czjXrQcS/ATTI92780f7d9ecde26318b477099f60fa8f522944A5/cp3402-workflow
 
-## Local Development - Docker
+## Local Development - Docker and PHP Storm
 
 Docker is a virtualization software platform that allows you to build, test, and deploy applications.  
 A Docker container was used to deploy WordPress locally.
 
-PHP Storm was used to work on the theme, given its popularity, unfriendly ui, syntax highlighting and easy integration.
+PHP Storm was used to work on the theme, given its popularity, user-friendly ui, syntax highlighting and easy integration.
 
 ### Step 1: Setup local deployment using docker container
 * Download and install docker desktop frm here: https://www.docker.com/products/docker-desktop/
@@ -30,10 +30,10 @@ PHP Storm was used to work on the theme, given its popularity, unfriendly ui, sy
 * To check if docker is installed correctly, open git bash and run `docker ps`
 * If it worked it should look like this:
   * `$ docker ps`    
-    `CONTAINER ID   IMAGE              COMMAND                  CREATED        STATUS`
+    `CONTAINER ID &nbsp;&nbsp; IMAGE &nbsp;&nbsp; COMMAND &nbsp;&nbsp; CREATED &nbsp;&nbsp; STATUS`
 * Run `mkdir wordpress-local && cd wordpress-local` and  `touch docker-compose.yml` one after the other
 * this will create a directory called wordpress-local on your computer, then add a new file called docker-compose.yml inside that directory
-* Find the newly "wordpress-local" folder and open the "docker-compose.yml" file
+* Find the "wordpress-local" folder and open the "docker-compose.yml" file
 * Copy the "Docker Compose File" code from below in to the file and save it
 * Run `docker-compose up -d` on git bash and wait for the set-up to complete
 
@@ -74,9 +74,8 @@ volumes:
 
 ### Step 2: Setup local WordPress in browser
 * Once step one has been completed got to http://localhost:8000/ on your browser to start WordPress
-* Select a language
-* Enter a site title, a username, your email.
-  * Copy and store the generated password and the username in a safe location
+* Set language as english
+* Enter a site title, a username, your email. _(Copy and store the generated password and the username in a safe location)_
 * Click install WordPress
 * Proceed to log in or go to `http://localhost:8000/wp-admin/` and enter the previously saved password and username to log in
 * WordPress is now set up locally
@@ -84,14 +83,13 @@ volumes:
 ## Version Control - Git Hub
 ### Step 3: Set up local environment version control
 * Inside the "local-wordpress" folder, docker compose will have created a "themes" folder from step 1
-* Run `cd <path-to-themes-folder>`
-  * Alternatively go in the folder using explorer, right click and select `Git Bash Here` from the menu
-* Run `git clone https://github.com/heshan8/CP3402-2023-Supp-Project.git`
+* In git Bash Run `cd <path-to-themes-folder>` _(Alternatively go in the folder using explorer, right click and select `Git Bash Here` from the menu)_
+* Run `git clone https://github.com/heshan8/CP3402-2023-Supp-Project.git` to clone the theme directory containing the theme files from GitHub
 * Run `cd <path-to-the-cloned-theme-folder-inside-themes>`
 * Run `git branch -a` to list all branches
-* Run `git checkout <brnach-name>` to switch to main branch
+* Run `git checkout <testing-brnach-name>` to switch to testing branch
 * Run `git log` to see the latest changes
-* Run `git pull` to get the latest updates from the main branch
+* Run `git pull` to get the latest updates from the testing branch
 
 ## Theme Development - PHP Storm
 ### Step 4: Developing the theme
