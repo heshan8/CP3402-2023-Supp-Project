@@ -25,8 +25,8 @@ A Docker container was used to deploy WordPress locally.
 PHP Storm was used to work on the theme, given its popularity, user-friendly ui, syntax highlighting and easy integration.
 
 ### Step 1: Setup local deployment using docker container
-* Download and install docker desktop frm here: https://www.docker.com/products/docker-desktop/
-* Download and install Git from here: https://gitforwindows.org/
+* Download and install docker desktop _(Install guide: https://docs.docker.com/desktop/install/windows-install/)_
+* Download and install Git _(Install guide: https://github.com/git-guides/install-git)_
 * To check if docker is installed correctly, open git bash and run `docker ps`
 * If it worked it should look like this:
   * `$ docker ps`    
