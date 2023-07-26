@@ -93,6 +93,24 @@ volumes:
 * Run `git log` to see the latest changes
 * Run `git pull` to get the latest updates from the main branch
 
+## Theme Development - PHP Storm
+### Step 4: Developing the theme
+* Install PHP Storm _(Install guide can be found here: https://www.jetbrains.com/help/phpstorm/installation-guide.html#3bb01cfa)_
+* In PHP Storm File > Open
+* Navigate to the "themes" folder created by docker compose in step 1
+* Select the cloned theme directory from step 3
+* Make changes to the theme _(Changes should be made in the testing branch)_
+* Create commits using Git Bash or PHP Storm
+  * Git Bash 
+    * From inside the cloned theme folder `git commit -m "Your commit mesage"`
+    * Once changes are made `git push`
+  * PHP Storm
+    * Select Commit from Git menu
+    * Review changes, enter an appropriate commit massage and click commit
+    * Select Push from Git menu and click push
+* On GitHub create a pull request to review changes and merge with the main branch.
+* Repeat task steps 4-8 from step 4
+* Log in to local WordPress to test theme changes _(Step 2)_
 
 
 
