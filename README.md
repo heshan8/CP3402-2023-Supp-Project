@@ -5,6 +5,7 @@
 * CMS - `WordPress`
 * Local Development - `Docker and PHP Storm`
 * Version Control - `GitHub`
+* Production Environment - `Digital Ocean`
 
 
 ## Trello
@@ -16,14 +17,14 @@ on the board as a starting point for future development.
 
 Link to existing board: https://trello.com/invite/b/czjXrQcS/ATTI92780f7d9ecde26318b477099f60fa8f522944A5/cp3402-workflow
 
-## Local Development - Docker and PHP Storm  
+## Local Development - Docker
 
 Docker is a virtualization software platform that allows you to build, test, and deploy applications.  
 A Docker container was used to deploy WordPress locally.
 
 PHP Storm was used to work on the theme, given its popularity, unfriendly ui, syntax highlighting and easy integration.
 
-#### Step 1: Setup local deployment using docker container
+### Step 1: Setup local deployment using docker container
 * Download and install docker desktop frm here: https://www.docker.com/products/docker-desktop/
 * Download and install Git from here: https://gitforwindows.org/
 * To check if docker is installed correctly, open git bash and run `docker ps`
@@ -35,7 +36,6 @@ PHP Storm was used to work on the theme, given its popularity, unfriendly ui, sy
 * Find the newly "wordpress-local" folder and open the "docker-compose.yml" file
 * Copy the "Docker Compose File" code from below in to the file and save it
 * Run `docker-compose up -d` on git bash and wait for the set-up to complete
-* Once the setup has been completed got to http://localhost:8000/ on your browser to start WordPress
 
 #### Docker Compose File
 ```version: "3"
@@ -72,10 +72,20 @@ volumes:
   mysql:  
 ```
 
+### Step 2: Setup local WordPress in browser
+* Once step one has been completed got to http://localhost:8000/ on your browser to start WordPress
+* Select a language
+* Enter a site title, a username, your email.
+  * Copy and store the generated password and the username in a safe location
+* Click install WordPress
+* Proceed to log in or go to `http://localhost:8000/wp-admin/` and enter the previously saved password and username to log in
+* WordPress is now set up locally
+
 ## Version Control - Git Hub
-#### Step 2 Set up version control for local environment
-* Inside the "local-wordpress" folder docker compose will have created a "themes" folder
+### Step 3: Set up local environment version control
+* Inside the "local-wordpress" folder, docker compose will have created a "themes" folder from step 1
 * Run `cd <path-to-themes-folder>`
+  * Alternatively go in the folder using explorer, right click and select `Git Bash Here` from the menu
 * Run `git clone https://github.com/heshan8/CP3402-2023-Supp-Project.git`
 * Run `cd <path-to-the-cloned-theme-folder-inside-themes>`
 * Run `git branch -a` to list all branches
