@@ -91,8 +91,27 @@ volumes:
 * Run `git log` to see the latest changes
 * Run `git pull` to get the latest updates from the testing branch
 
-## Theme Development - PHP Storm
-### Step 4: Developing the theme
+## Updating and maintaining the site
+
+### Plugins used
+* Easy map block - Add map to site
+* Profile Builder - Create log in and register pages
+* Simple Basic Contact Form - Create contact us page
+* WP Pusher - Automate deployment
+
+### Adding new site content
+
+Adding new pages and posts can be done by going in tp posts and pages menus and selecting `add new`  
+
+WordPress documentation:
+* https://wordpress.com/support/pages/
+* https://wordpress.com/support/posts/
+
+# Theme Development - PHP Storm
+
+The child theme contains various css code to improve the structure of site content. 
+
+### Making changes to the theme
 * Install PHP Storm _(Install guide can be found here: https://www.jetbrains.com/help/phpstorm/installation-guide.html#3bb01cfa)_
 * In PHP Storm File > Open
 * Navigate to the "themes" folder created by docker compose in step 1
@@ -107,8 +126,6 @@ volumes:
     * Review changes, enter an appropriate commit massage and click commit
     * Select Push from Git menu and click push
 * On GitHub create a pull request to review changes and merge with the main branch.
-* Repeat task steps 4-8 from step 4
+* Repeat task steps 4-8 from step 3
 * Log in to local WordPress to test theme changes _(Step 2)_
-
-
-
+* To create additional changes to the child theme, open the child them folder and make changes to the style.css file

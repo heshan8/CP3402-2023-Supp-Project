@@ -37,3 +37,288 @@ Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-w
 .website-content {
     margin-bottom: 10px
 }
+.comments-area {
+    width: 100%
+}
+
+.comment-respond .comment-form {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.comments-area .comment-meta,
+.comments-area .comment-respond {
+    position: relative
+}
+
+.comments-area .comments-title {
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 30px
+}
+
+.comments-area .comment-meta .comment-metadata a {
+    color: #999
+}
+
+.comment-meta .vcard img {
+    float: left;
+    margin-right: 14px
+}
+
+.comments-area .comment-author {
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.comments-area .comment-author .fn a {
+    color: #222
+}
+
+.comments-area .comment-content {
+    padding: 20px 0 0 45px;
+}
+
+.comments-area .reply .comment-reply-link i {
+    font-size: 12px
+}
+
+.comments-area .comment-content p {
+    margin-bottom: 5px
+}
+
+.comments-area p.form-submit {
+    margin-bottom: 0;
+    padding-bottom: 10px
+}
+
+.comments-area p.form-submit input {
+    background: #fab526;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius:30px;
+    padding: 15px 35px;
+    text-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    margin: 0;
+    transition: background .25s linear
+}
+
+
+.comments-area ol.comment-list>li:last-child {
+    margin-bottom: 0
+}
+
+.comments-area ol.comment-list>li {
+    width: 100%;
+    border-bottom: 3px solid #000
+}
+
+#comments li.comment.parent article .reply,
+.author-highlight li.bypostauthor article .reply {
+    padding-bottom: 0
+}
+
+.comments-area ol.comment-list ol.children li  {
+    padding-top: 20px;
+    margin-left:0;
+    margin-top:20px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style:none;
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+ol.children {
+    margin-left: 0;
+    padding-left: 5px;
+}
+.comments-area ol.comment-list li li.bypostauthor {
+    position: relative
+}
+
+.comments-area.author-highlight ol.comment-list li.bypostauthor {
+    border-bottom: 3px solid #f00000;
+    padding: 40px;
+    background: #f5f5f5
+}
+
+
+#comments li.comment .comment-respond {
+    margin-top: 10px;
+    position: relative
+}
+
+.comment-reply-title {
+    position: relative;
+    color: #3498DB;
+    margin: 0 0 16px;
+    padding-bottom: 20px
+}
+
+p.comment-form-email, p.comment-form-author {
+    max-width: 49%;
+    float: left;
+    display: inline-block;
+}
+
+p.comment-form-email {
+    margin-left: 2%;
+}
+
+.comment-form-wrap .comment-respond,
+.main-navigation ul li,
+.sheader {
+    position: relative
+}
+a#cancel-comment-reply-link {
+    display: block;
+    font-size: 17px;
+    opacity: 0.6;
+}
+.comments-area .comment-respond * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.comment-respond .logged-in-as a {
+    color: #000;
+}
+
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url] {
+    background: #fff;
+    padding: 8px 14px;
+    width: 100%;
+    max-width: 430px;
+    margin-bottom: 6px
+}
+
+.wp-caption,
+embed,
+iframe,
+object {
+    max-width: 100%
+}
+
+.comments-area {
+    width: 100%
+}
+
+.comment-respond .comment-form {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.comments-area .comment-meta,
+.comments-area .comment-respond {
+    position: relative
+}
+
+.comments-area .comments-title {
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 30px
+}
+
+.comments-area .comment-meta .comment-metadata a {
+    color: #999
+}
+
+.comment-meta .vcard img {
+    float: left;
+    margin-right: 14px
+}
+
+.comments-area .comment-author {
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.comments-area .comment-author .fn a {
+    color: #222
+}
+
+.comments-area .comment-content {
+    padding: 20px 0 0 45px;
+}
+
+.comments-area .reply .comment-reply-link i {
+    font-size: 12px
+}
+
+.comments-area .comment-content p {
+    margin-bottom: 5px
+}
+
+.comments-area p.form-submit {
+    margin-bottom: 0;
+    padding-bottom: 10px
+}
+
+.comments-area p.form-submit input {
+    background: #fab526;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius:30px;
+    padding: 15px 35px;
+    text-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    margin: 0;
+    transition: background .25s linear
+}
+
+
+.comments-area ol.comment-list>li:last-child {
+    margin-bottom: 0
+}
+
+.comments-area ol.comment-list>li {
+    width: 100%;
+    border-bottom: 3px solid #000
+}
+
+#comments li.comment.parent article .reply,
+.author-highlight li.bypostauthor article .reply {
+    padding-bottom: 0
+}
+
+.comments-area ol.comment-list ol.children li  {
+    padding-top: 20px;
+    margin-left:0;
+    margin-top:20px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style:none;
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+ol.children {
+    margin-left: 0;
+    padding-left: 5px;
+}
+.comments-area ol.comment-list li li.bypostauthor {
+    position: relative
+}
+
+.comments-area.author-highlight ol.comment-list li.bypostauthor {
+    border-bottom: 3px solid #f00000;
+    padding: 40px;
+    background: #f5f5f5
+}
