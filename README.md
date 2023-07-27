@@ -128,7 +128,4 @@ The child theme contains various css code to improve the structure of site conte
 * On GitHub create a pull request to review changes and merge with the main branch.
 * Repeat task steps 4-8 from step 3
 * Log in to local WordPress to test theme changes _(Step 2)_
-* To create additional changes to the child theme, open the child them folder andmake changes to the style.css file 
-
-
-
+* To create additional changes to the child theme, open the child them folder and make changes to the style.css file
