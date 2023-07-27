@@ -27,3 +27,9 @@ Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-w
 .super-menu, .pmenu {
     border: 0;
 }
+
+.fbox {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
