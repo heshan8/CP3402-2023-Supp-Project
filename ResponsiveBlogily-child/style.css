@@ -14,3 +14,8 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain:	 simple-responsiveblogily
 Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-widgets, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, flexible-header, right-sidebar, one-column, two-columns, blog, news, entertainment
 */
+
+.primary-menu .pmenu {
+    background: #50C878
+}
+
