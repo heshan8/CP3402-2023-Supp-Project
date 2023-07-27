@@ -33,3 +33,7 @@ Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-w
     padding-bottom: 0;
     padding-top: 5px;
 }
+
+.website-content {
+    margin-bottom: 10px
+}
