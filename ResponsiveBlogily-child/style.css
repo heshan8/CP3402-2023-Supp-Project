@@ -23,3 +23,7 @@ Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-w
     font-weight: 600;
     font-size: 16.5px;
 }
+
+.super-menu, .pmenu {
+    border: 0;
+}
