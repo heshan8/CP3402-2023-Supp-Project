@@ -19,3 +19,7 @@ Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-w
     background: #50C878
 }
 
+.main-navigation ul li a {
+    font-weight: 600;
+    font-size: 16.5px;
+}
